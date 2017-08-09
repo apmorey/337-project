@@ -2,13 +2,13 @@ package edu.oakland.production.database;
 
 import edu.oakland.helper.database.*;
 
-public class TicTacDatabase{
+public class TTTDatabase{
 	private Gameboard gameboard;
 	private int rowNumber, colNumber;
 	private char markChar;
 	private char[][] board;
 	
-	public TicTacDatabase(int rowNumber, int colNumber, char markChar, Gameboard gameboard){
+	public TTTDatabase(int rowNumber, int colNumber, char markChar, Gameboard gameboard){
 		this.rowNumber = rowNumber;
 		this.colNumber = colNumber;
 		this.markChar = markChar;
